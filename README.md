@@ -10,7 +10,7 @@ An unofficial Nintendo Switch wrapper for the Android version of
 **Asphalt 6: Adrenaline HD**.
 
 [![Switch](https://img.shields.io/badge/Nintendo_Switch-Homebrew-E60012?style=for-the-badge&logo=nintendoswitch&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Version-0.8.0_beta-4C8BF5?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/Version-0.7.9-4C8BF5?style=for-the-badge)](#)
 [![ARM](https://img.shields.io/badge/ARM-32--bit-0091BD?style=for-the-badge&logo=arm&logoColor=white)](#)
 
 </div>
