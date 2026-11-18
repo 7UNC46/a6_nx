@@ -114,7 +114,7 @@ For a clean rebuild:
 Requires Atmosphère and a homebrew menu that can install forwarders, such as
 sphaira.
 
-Put `a6_nx.nro` and your APK - *1.3.3* in this folder on the SD card:
+Put `a6_nx.nro` and your APK - **1.3.3** in this folder on the SD card:
 
 ```text
 sd:/switch/a6_nx/
