@@ -10,7 +10,7 @@ An unofficial Nintendo Switch wrapper for the Android version of
 **Asphalt 6: Adrenaline HD**.
 
 [![Switch](https://img.shields.io/badge/Nintendo_Switch-Homebrew-E60012?style=for-the-badge&logo=nintendoswitch&logoColor=white)](#)
-[![Version](https://img.shields.io/badge/Version-0.8.0_beta-4C8BF5?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/Version-0.8.0-4C8BF5?style=for-the-badge)](#)
 [![ARM](https://img.shields.io/badge/ARM-32--bit-0091BD?style=for-the-badge&logo=arm&logoColor=white)](#)
 
 </div>
@@ -80,11 +80,6 @@ of the car selection.
 **Garage:** the **Left Stick** or the D-Pad walks, the **Right Stick** looks around
 (both go straight to the garage camera, so looking never picks a car), and **A** or
 **ZR** taps the crosshair in the middle of the screen, for example to pick a car.
-
-**Motion steering:** with `steering = motion` in `config.ini`, you steer by
-turning the console (handheld), the Pro Controller or the Joy-Con grip like a
-steering wheel. `steering = both` takes whichever of the stick and the motion
-is turned further.
 
 ---
 
@@ -186,22 +181,9 @@ The file is written with its defaults on the first launch.
 
 ## Status
 
-**Version 0.8.0 (beta).** Boot, menus, sound and music, the garage and all 42
+**Version 0.8.0.** Boot, menus, sound and music, the garage and all 42
 cars are working. Races run on several tracks, with results and achievements.
 The controller works in races, menus, the pause menu and the garage.
-
-### Changes since 0.7.9
-
-* Garage: the Left Stick walks and the Right Stick looks around, straight to the
-  garage camera, so looking never picks a car. A or ZR picks the car under the
-  crosshair. The look speed is `garage_look_speed` in `config.ini`.
-* Menus: L switches the pointer on and off. While it is off, ZL / ZR go to the
-  previous / next entry.
-* Race: L no longer brakes (ZL / B do).
-* The gap to the cars ahead and behind shows in duels only.
-* The "999 km/h" text over the position display is gone.
-* Audi TT-RS and Ferrari California unlock by stars (`promo_cars`).
-* The pause menu's Music Player plays the 12 race tracks.
 
 ### Roadmap
 
@@ -210,8 +192,7 @@ The controller works in races, menus, the pause menu and the garage.
   * D-Pad down reaches the buttons at the bottom (paint, tuning, buy, race).
 * **Graphics settings:** check the in-game visual options.
 * **Intro video:** play the game's intro (needs video playback).
-* **Motion controls:** steering by tilting the console or controller. It is
-  built (`steering = motion`) but not yet confirmed on hardware.
+* **Motion controls:** steering by tilting the console or controller.
 * After 1.0.0: Music Player controls with the D-Pad, on-screen keyboard for
   name entry.
 
@@ -225,7 +206,7 @@ been tested.
 
 ## Credits
 
-**Asphalt 6: Adrenaline Nintendo Switch port**: YOUR_NAME
+**Asphalt 6: Adrenaline Nintendo Switch port**: 7UNC46
 
 **Asphalt 6: Adrenaline**: Gameloft
 
