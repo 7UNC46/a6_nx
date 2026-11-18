@@ -47,7 +47,7 @@ the first launch.
 | **Y** | Change camera |
 | **+** | Pause |
 | **-** | Back |
-| **L3 + R3** | Easter egg: the developers' free cameras |
+| **Discover it** | Easter egg: the developers' free cameras |
 | **Touchscreen** | Touch input in handheld mode, as on a phone |
 
 In menus the D-Pad moves, A confirms and B goes back. In the pause menu the
