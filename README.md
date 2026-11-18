@@ -34,23 +34,6 @@ directly. The repack's 64-bit translator libraries are not used.
 No game code or data is included. The game data is unpacked from your APK on
 the first launch.
 
-The engine has some bugs that a 2010 phone never triggered but the Switch does.
-The wrapper patches them in memory at load time and never changes your files:
-
-* the car list of the race car selection, which held empty slots and wrote
-  past its end
-* the car preview loader
-* three `SWP` instructions the Switch CPU does not have
-* the gamepad layer from the game's PC build, which the Android version never
-  used
-* the gap to the cars ahead and behind, which the HUD showed in every race:
-  it now shows in duels only
-* a leftover "999 km/h" text from an unused race mode, which sat over the
-  position display
-* cars unlocked by stars, which could stay locked
-* the pause menu's Music Player, an empty leftover of the iPhone version: it
-  now plays the game's 12 race tracks
-
 ---
 
 ## Controls
